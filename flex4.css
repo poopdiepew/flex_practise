@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+.info{
+    font-size: 48px;
+    font-weight: 800;
+}
+.plants{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+.plant{
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}

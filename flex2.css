@@ -1,0 +1,26 @@
+.container{
+    background-color: peachpuff;
+    border: 6px solid;
+    width: 1000px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 8px;
+    
+}
+div{
+    background-color: white;
+    color: blue;
+    padding:10px;   
+    margin: 20ps; 
+}
+
+.logo{
+    background-color: white;
+    color: red;
+    margin: auto;
+    gap: auto;
+    font-size:40px;
+}
